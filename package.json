@@ -1,0 +1,36 @@
+{
+  "name": "hokup",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@bsmnt/scrollytelling": "^0.1.3",
+    "@next/third-parties": "^14.2.3",
+    "@sendgrid/mail": "^7.7.0",
+    "@studio-freight/lenis": "^1.0.16",
+    "@vercel/analytics": "^1.0.1",
+    "autoprefixer": "10.4.14",
+    "framer-motion": "^10.16.0",
+    "gsap": "^3.12.2",
+    "next": "^14.2.3",
+    "postcss": "8.4.25",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-facebook-pixel": "^1.0.4",
+    "react-fast-marquee": "^1.6.4",
+    "react-input-mask": "^2.0.4",
+    "react-text-input": "^0.0.8",
+    "react-textarea-autosize": "^8.5.3",
+    "swiper": "^11.1.3",
+    "tailwindcss": "3.3.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.14"
+  }
+}
