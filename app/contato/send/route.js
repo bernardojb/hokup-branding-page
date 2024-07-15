@@ -37,8 +37,8 @@ export async function POST(req, res) {
             <tbody>
                 <tr>
                     <td>
-                        <p style="color: #9A97A2; text-align: center; text-decoration: none; font-size: 14px; padding-bottom: 10px;">Mensagem entregue por <a href="https://landing.hokup.com.br/" target="_blank">landing.hokup.com.br</a></p>
-                        <img src="https://i.imgur.com/UYTYvx2.png" alt="landing.hokup.com.br" style="height:18px;display:block;outline:none;border:none;text-decoration:none;margin-left:auto;margin-right:auto;margin-top:0px;margin-bottom:0px"/> 
+                        <p style="color: #9A97A2; text-align: center; text-decoration: none; font-size: 14px; padding-bottom: 10px;">Mensagem entregue por <a href="https://branding.hokup.com.br/" target="_blank">branding.hokup.com.br</a></p>
+                        <img src="https://i.imgur.com/UYTYvx2.png" alt="branding.hokup.com.br" style="height:18px;display:block;outline:none;border:none;text-decoration:none;margin-left:auto;margin-right:auto;margin-top:0px;margin-bottom:0px"/> 
                     </td>
                 </tr>
             </tbody>
@@ -49,7 +49,7 @@ export async function POST(req, res) {
 
   const data = {
     to: ["bernardo@hokup.com.br", "pedro@hokup.com.br", "hokupco@gmail.com"],
-    from: "landing.hokup.com.br <mail@hokup.com.br>",
+    from: "branding.hokup.com.br <mail@hokup.com.br>",
     subject: `Nova mensagem de <${body.email}>`,
     text: "hokup",
     html: message,
