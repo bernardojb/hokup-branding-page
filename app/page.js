@@ -126,7 +126,7 @@ const Home = () => {
     {
       id: 4,
       icon: "/assets/icons/general/smartphone.svg",
-      title: "material digitais",
+      title: "material digital",
       text: "Desenvolvemos pacotes de mídias personalizados para divulgação do seu negócio nas redes sociais, ajudando você a transmitir a essência e identidade do seu negócio de forma orgânica.",
       bg: "/assets/images/bg-4.jpg",
     },
